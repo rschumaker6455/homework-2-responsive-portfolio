@@ -7,6 +7,9 @@
 body {
     background-image: url("./Assets/Images/mona-eendra-vC8wj_Kphak-unsplash 2.jpg");
     background-size: 700px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    text-decoration: none;
 }
 
 li, a {
@@ -14,7 +17,6 @@ li, a {
     font-weight: 500;
     font-size: 16px;
     color: yellow;
-    text-decoration: none;
 }
 
 header {
@@ -22,7 +24,17 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%; 
-    background-color:violet;
+    background-color:rgb(205, 133, 205);
+    height: 70px;
+    width: 100%;
+    
+}
+
+h1 {
+    font-size: 25px;
+    color: yellow;
+    font-weight: bold;
+    padding: 0 20px
 }
 
 .nav_links {
@@ -39,82 +51,64 @@ header {
 }
 
 .nav_links li a:hover {
-    color: #0088a9;
-}
-
-
-
-
-
-/*.wrapper {
-    display: grid;
-    grid-template-columns: 25% 75%;
-}
-
-.name {
-    display: flex;
-    justify-content:flex-start;
-    margin-left: 1em;
-    margin-top: 1em;
-    padding: 1em;
-}
-
-nav ul {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 1em;
-}
-
-nav li {
-    list-style: none;? 
-}
-
-nav a {
-    border: 1px solid transparent;
-    padding: 1em;
-    text-decoration: none;
-    color: purple;
-    margin-top: 1em;
-    margin-right: 1em;
+    color: white;
 }
 
 nav a:hover, nav a:focus {
     border: 1px solid white;
 } 
 
-img {
-    width: 300px;
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 30px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
 }
 
-/*.name {
-    display: flex;
-    justify-content:flex-start;
-    margin-left: 1em;
-    margin-top: 1em;
-    padding: 1em;
+#check {
+    display: none;
 }
 
-nav ul {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 1em;
+@media (max-width: 952px) {
+    header h1 {
+        font-size: 20px;
+        padding-left: 50px;
+    }
+    .nav_links li a {
+        font-size: 12px;
+    }
 }
 
-nav li {
-    list-style: none;? 
-}
-
-nav a {
-    border: 1px solid transparent;
-    padding: 1em;
-    text-decoration: none;
-    color: purple;
-}
-
-nav a:hover, nav a:focus {
-    border: 1px solid white;
-} 
-
-img {
-    width: 300px;
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 25%;
+        height: 40vh;
+        background: grey;
+        top: 75px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .nav_links li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .nav_links li a {
+        font-size: 20px;
+    }
+    nav a:hover, nav a:focus{
+        background: none;
+        color: violet;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
 }
