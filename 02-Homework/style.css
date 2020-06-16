@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background-image: url("./Assets/Images/mona-eendra-vC8wj_Kphak-unsplash 2.jpg");
+    background-size: 700px;
+}
+
+li, a {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: yellow;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%; 
+    background-color:violet;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+
+
+
+
+/*.wrapper {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.name {
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 1em;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+}
+
+nav li {
+    list-style: none;? 
+}
+
+nav a {
+    border: 1px solid transparent;
+    padding: 1em;
+    text-decoration: none;
+    color: purple;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+nav a:hover, nav a:focus {
+    border: 1px solid white;
+} 
+
+img {
+    width: 300px;
+}
+
+/*.name {
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 1em;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+}
+
+nav li {
+    list-style: none;? 
+}
+
+nav a {
+    border: 1px solid transparent;
+    padding: 1em;
+    text-decoration: none;
+    color: purple;
+}
+
+nav a:hover, nav a:focus {
+    border: 1px solid white;
+} 
+
+img {
+    width: 300px;
+}
