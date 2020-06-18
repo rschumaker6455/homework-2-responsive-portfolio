@@ -19,14 +19,14 @@ li, a {
     color: yellow;
 }
 
-header {
+ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%; 
     background-color:rgb(205, 133, 205);
     height: 70px;
-    width: 100%;
+    width: 100vw;
     
 }
 
