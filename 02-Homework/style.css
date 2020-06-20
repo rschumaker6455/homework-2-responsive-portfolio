@@ -12,12 +12,7 @@ body {
     text-decoration: none;
 }
 
-li, a {
-    font-family: sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: yellow;
-}
+
 
  header {
     display: flex;
@@ -27,14 +22,22 @@ li, a {
     background-color:rgb(205, 133, 205);
     height: 70px;
     width: 100vw;
+    border-bottom: 2px rgba(234, 245, 245, 0.961) solid;
     
 }
 
-h1 {
+.name {
     font-size: 25px;
     color: yellow;
     font-weight: bold;
-    padding: 0 20px
+    padding: 0 20px;
+}
+
+li, a {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: yellow;
 }
 
 .nav_links {
@@ -74,7 +77,7 @@ nav a:hover, nav a:focus {
 
 @media (max-width: 952px) {
     header h1 {
-        font-size: 20px;
+        font-size: 25px;
         padding-left: 50px;
     }
     .nav_links li a {
@@ -88,13 +91,15 @@ nav a:hover, nav a:focus {
     }
     ul {
         position: fixed;
-        width: 25%;
+        width: 50%;
         height: 40vh;
-        background: grey;
+        background: rgb(205, 133, 205);
         top: 75px;
         left: -100%;
         text-align: center;
         transition: all .5s;
+        z-index: 9999;
+        border: 2px rgba(234, 245, 245, 0.961) solid;
     }
     .nav_links li {
         display: block;
