@@ -54,16 +54,19 @@ li, a {
 }
 
 .nav_links li a:hover {
-    color: white;
+    color: rgba(234, 245, 245, 0.961);
 }
 
 nav a:hover, nav a:focus {
-    border: 1px solid white;
+    border: 1px solid rgba(234, 245, 245, 0.961);
+    margin: 2px 2px;
+    padding: 2px 2px;
+    text-decoration: none;
 } 
 
 .checkbtn {
     font-size: 30px;
-    color: white;
+    color: rgba(234, 245, 245, 0.961);
     float: right;
     line-height: 30px;
     margin-right: 40px;

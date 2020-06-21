@@ -4,8 +4,82 @@
 
 
 .col-md-12 {
+    width: 85%;
+    max-width: 600px;
     background: rgb(205, 133, 205);
-    height: 500px;
-    padding-top: 20px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
     border: 2px rgba(234, 245, 245, 0.961) solid;
+}
+
+.contact {
+    font-size: 25px;
+    color: yellow;
+    font-weight: bold;
+    padding: 0 5px 10px;
+    border-bottom: 2px rgba(234, 245, 245, 0.961) solid;
+}
+
+.txtb {
+    border: 1px rgba(234, 245, 245, 0.961) solid;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+.txtb label {
+    display: block;
+    text-align: left;
+    color: yellow;
+    font-size: 18px;
+}
+
+.txtb input,.txtb textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+.sendbtn {
+    display: inline-block;
+    background: rgba(234, 245, 245, 0.961);
+    padding: 14px 0;
+    color: rgb(205, 133, 205);
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.sendbtn:hover, .sendbtn:focus {
+    text-decoration: none;
+    color: black;
+} 
+
+.additionalcontact {
+    font-size: 15px;
+    color: yellow;
+    font-weight: bold;
+    padding: 0 5px 10px;
+    margin-top: 10px;
+    text-align: start;
+    border-bottom: 2px rgba(234, 245, 245, 0.961) solid;
+}
+
+.find {
+    margin-left: 75px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
 }
