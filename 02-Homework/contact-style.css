@@ -77,9 +77,10 @@
 }
 
 .find {
-    margin-left: 75px;
+    margin-left: 10px;
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    
 }
+
