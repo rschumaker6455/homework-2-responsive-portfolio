@@ -20,10 +20,11 @@
     border: 2px rgba(234, 245, 245, 0.961) solid;
 }
 
+
 p {
     padding-top: 15px;
     line-height: 30px;
-    font-size: 20px;
+    font-size: 18px;
     color:black;
 }
 
@@ -36,7 +37,7 @@ p {
      padding: 25px 10px 5px 0;
  }
 
- @media (max-width: 952px) {
+ @media (max-width: 995px) {
     img {
     position: relative;
     float: left;
@@ -45,9 +46,13 @@ p {
     padding: 10px 10px 0 0;
     }
     p {
-    padding-top: 15px;
+    padding-top: 10px;
     line-height: 30px;
     font-size: 12px;
-    
     }
+    .col-md-12 {
+        background: rgb(205, 133, 205);
+        height: 850px;
+        padding-top: 20px;
+        border: 2px rgba(234, 245, 245, 0.961) solid;
  }
