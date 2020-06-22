@@ -84,3 +84,37 @@
     
 }
 
+@media (max-width: 415px) {
+    .col-md-12 {
+        width: 85%;
+        max-width: 600px;
+        background: rgb(205, 133, 205);
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 30px 40px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        text-align: center;
+        border: 2px rgba(234, 245, 245, 0.961) solid;
+    }
+}
+
+@media (max-width: 320px) {
+    .col-md-12 {
+        width: 85%;
+        max-width: 600px;
+        background: rgb(205, 133, 205);
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 30px 40px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        text-align: center;
+        border: 2px rgba(234, 245, 245, 0.961) solid;
+    }
+}
+
