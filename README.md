@@ -8,4 +8,4 @@ This is a screenshot of the deployed application:
 
 
 This is a link to the deployed application:
-[Password Generator](https://rschumaker6455.github.io/homework-3-passwordgenerator/.)
+[Password Generator](https://rschumaker6455.github.io/homework-2-responsive-portfolio/)
