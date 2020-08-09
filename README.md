@@ -1,4 +1,4 @@
-# homework-2-responsive-portfolio
+# ruths-professional-portfolio
 
 This is my portfolio. In it you will find my bio, contact information and my projects that I am most proud of. 
 
