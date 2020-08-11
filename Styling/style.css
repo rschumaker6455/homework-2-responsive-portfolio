@@ -5,26 +5,22 @@
 }
 
 body {
-    background-image: url("backgound.jpg");
-    background-size: 700px;
+    background-color: gainsboro;
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
     text-decoration: none;
 
 }
-
-
 
  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%; 
-    background-color:rgb(205, 133, 205);
+    background-color:rgb(200, 122, 245);
     height: 70px;
     width: 100vw;
     border-bottom: 2px rgba(234, 245, 245, 0.961) solid;
-    
+    z-index: 9999999;
 }
 
 .name {

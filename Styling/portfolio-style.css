@@ -17,14 +17,18 @@
     margin-top: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background: rgb(205, 133, 205);
+    background: rgb(200, 122, 245);
     line-height: 30px;
     border: 2px rgba(234, 245, 245, 0.961) solid;
+    border-radius: 10px;
 }
 
 img {
     position: relative;
-    padding: 25px 0px 0px 0px;   
+    padding-top: 25px;
+    image-rendering: auto;
+    height: 300px;
+    width: 350px;
 }
 
 

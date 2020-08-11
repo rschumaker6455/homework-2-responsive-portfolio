@@ -6,7 +6,7 @@
 .col-md-12 {
     width: 85%;
     max-width: 600px;
-    background: rgb(205, 133, 205);
+    background: rgb(200, 122, 245);
     position: absolute;
     top: 45%;
     left: 50%;
@@ -53,7 +53,7 @@
     display: inline-block;
     background: rgba(234, 245, 245, 0.961);
     padding: 14px 0;
-    color: rgb(205, 133, 205);
+    color: rgb(200, 122, 245);
     cursor: pointer;
     margin-top: 8px;
     width: 100%;
@@ -88,7 +88,7 @@
     .col-md-12 {
         width: 85%;
         max-width: 600px;
-        background: rgb(205, 133, 205);
+        background: rgb(200, 122, 245);
         position: absolute;
         top: 55%;
         left: 50%;
@@ -105,7 +105,7 @@
     .col-md-12 {
         width: 85%;
         max-width: 600px;
-        background: rgb(205, 133, 205);
+        background: rgb(200, 122, 245);
         position: absolute;
         top: 65%;
         left: 50%;
